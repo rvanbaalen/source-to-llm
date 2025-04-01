@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/rvanbaalen/source-to-llm/compare/source-to-llm-v1.0.2...source-to-llm-v1.0.3) (2025-04-01)
+
+
+### Bug Fixes
+
+* missing dependency ([93fdad9](https://github.com/rvanbaalen/source-to-llm/commit/93fdad990df903a294c7f60c6fa5b34dc52735ef))
+
 ## [1.0.2](https://github.com/rvanbaalen/source-to-llm/compare/source-to-llm-v1.0.1...source-to-llm-v1.0.2) (2025-04-01)
 
 
