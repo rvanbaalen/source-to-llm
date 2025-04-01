@@ -4,7 +4,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import process from "node:process";
 import ignore from "ignore";
-import { version } from "./package.json" assert { type: 'json' }; // Import version
+import pkg from './package.json' with { type: 'json' };
 
 // --- Configuration ---
 const DEFAULT_STRUCTURE_FILENAME = "structure.txt";
@@ -237,7 +237,7 @@ async function main() {
   }
 
   if (process.argv.includes("--version") || process.argv.includes("-v")) {
-    console.log(version);
+    console.log(pkg.version);
     process.exit(0);
   }
 

@@ -35,6 +35,8 @@
   "homepage": "https://robinvanbaalen.nl/source-to-llm",
   "files": [
     "index.js",
+    "package.json",
+    "package-lock.json",
     "CHANGELOG.md",
     "README.md",
     "LICENSE"
