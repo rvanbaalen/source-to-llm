@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.6](https://github.com/rvanbaalen/source-to-llm/compare/source-to-llm-v1.0.5...source-to-llm-v1.0.6) (2025-04-01)
+
+
+### Bug Fixes
+
+* update system prompt to allow file creation ([5234239](https://github.com/rvanbaalen/source-to-llm/commit/5234239e1ec91af9039f1f4747af46bba0049fc1))
+
 ## [1.0.5](https://github.com/rvanbaalen/source-to-llm/compare/source-to-llm-v1.0.4...source-to-llm-v1.0.5) (2025-04-01)
 
 
