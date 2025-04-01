@@ -4,7 +4,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import process from "node:process";
 import ignore from "ignore";
-import { version } from "./package.json"; // Import version
+import { version } from "./package.json" assert { type: 'json' }; // Import version
 
 // --- Configuration ---
 const DEFAULT_STRUCTURE_FILENAME = "structure.txt";
