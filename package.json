@@ -1,6 +1,6 @@
 {
   "name": "@rvanbaalen/source-to-llm",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "description": "Convert source code to a format suitable for LLM processing.",
   "main": "index.js",
