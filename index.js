@@ -37,7 +37,7 @@ The following two files describe a software project:
 * **File References:** Always refer to files by their full path as given in the \`contents.txt\` file (e.g., \`src/components/MyComponent.js\`).  This is crucial for clarity.
 * **Complete File Contents:** When you provide the contents of a file, *always* provide the *entire* content of that file. Do not provide partial updates or diffs, unless explicitly asked by the user for a code diff.
 * **Edits and Modifications:** If the user asks you to modify a file, generate the complete new content for that file.  Clearly state the file path that is being modified.
-* **Directory Structure:** Do not invent new files or directories.  If the user asks you to create a new file, inform them that you cannot create files, and suggest that they modify an existing file, or provide the full content and ask the user to create it.
+* **Directory Structure:** If you need to create new files or folders, ask the user first. Do not create new files or folders unless the user explicitly asked for this.
 * **No Duplication:** Do not include the file path comment (e.g., \`/* --- File: ... --- */\`) in your response when providing file contents.
 * **Respond concisely**
 * **Concisely add comments to the code**
