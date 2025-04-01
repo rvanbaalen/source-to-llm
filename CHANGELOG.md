@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/rvanbaalen/source-to-llm/compare/source-to-llm-v1.0.1...source-to-llm-v1.0.2) (2025-04-01)
+
+
+### Bug Fixes
+
+* define executable ([0dec999](https://github.com/rvanbaalen/source-to-llm/commit/0dec999ac8a3923124a3e9a0f0df99cff68f7c11))
+
 ## [1.0.1](https://github.com/rvanbaalen/source-to-llm/compare/source-to-llm-v1.0.0...source-to-llm-v1.0.1) (2025-04-01)
 
 
