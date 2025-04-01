@@ -1,16 +1,16 @@
-import { defineConfig } from 'vite'
-import tailwindcss from '@tailwindcss/vite'
-import { resolve } from 'path'
+import { resolve } from "node:path"
+import tailwindcss from "@tailwindcss/vite"
+import { defineConfig } from "vite"
 
 export default defineConfig({
-  base: "/package-name/", // Change this if your page is not hosted at a root URL
+  base: "/source-to-llm/", // Change this if your page is not hosted at a root URL
   plugins: [
     tailwindcss(),
   ],
   build: {
     rollupOptions: {
       input: {
-        main: resolve(__dirname, 'index.html'),
+        main: resolve(__dirname, "index.html"),
       },
     },
   },

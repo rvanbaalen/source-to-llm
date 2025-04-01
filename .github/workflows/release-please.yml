@@ -42,10 +42,10 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-# Uncomment for actual npm packages.
-#      - run: npm publish
-#        env:
-#          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+      # Uncomment for actual npm packages.
+      - run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
 
       - name: Render README.md to HTML
         run: npx @rvanbaalen/readme-to-html
