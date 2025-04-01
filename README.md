@@ -14,9 +14,11 @@ These outputs can be used as context for Large Language Models (LLMs) to enable 
 
 ##   Installation
 
-Install the package via npm:
+Install the package via npm (no need to install, recommended to use `npx`):
 
-    npm install @rvanbaalen/source-to-llm
+```bash
+npm install @rvanbaalen/source-to-llm
+```
 
 ##   Usage
 
@@ -24,7 +26,9 @@ Install the package via npm:
 
 To use the package, run it from your project's root directory:
 
-    npx @rvanbaalen/source-to-llm
+```bash
+npx @rvanbaalen/source-to-llm
+```
 
 This will create `structure.txt` and `contents.txt` in the current directory.
 
@@ -59,17 +63,19 @@ This will create `structure.txt` and `contents.txt` in the current directory.
 
 You can configure the package using a file named `stl.config.js` in your project's root directory. You can also specify a custom path using the `--config` option. Here's an example:
 
-    // stl.config.js
-    export default {
-        gitignore: true,
-        ignores: ["dist/", "*.log"],
-        only: ["src", "index.html"],
-        includeContentsHeader: false,
-        outputDir: "./output",
-        structureFilename: "project_structure.txt",
-        contentsFilename: "code_dump.txt",
-        exportPrompt: true,
-    };
+```javascript
+// stl.config.js
+export default {
+    gitignore: true,
+    ignores: ["dist/", "*.log"],
+    only: ["src", "index.html"],
+    includeContentsHeader: false,
+    outputDir: "./output",
+    structureFilename: "project_structure.txt",
+    contentsFilename: "code_dump.txt",
+    exportPrompt: true,
+};
+```
 
 ###   Command Line Arguments
 
@@ -86,7 +92,9 @@ You can use command-line arguments to override the configuration file and specif
 
 For example:
 
-    npx @rvanbaalen/source-to-llm --init --config ./my-config.js --output ./my-output
+```bash
+npx @rvanbaalen/source-to-llm --init --config ./my-config.js --output ./my-output 
+```
 
 This command will create a default configuration file at `./my-config.js` and output the files to the `./my-output` directory.
 
@@ -106,12 +114,17 @@ To contribute to this project, follow these steps:
 
 1.  Clone the repository:
 
-        git clone [https://github.com/rvanbaalen/source-to-llm.git](https://github.com/rvanbaalen/source-to-llm.git)
+
+```bash
+git clone https://github.com/rvanbaalen/source-to-llm.git     
+```
 
 2.  Install dependencies:
 
-        cd source-to-llm
-        npm install
+```bash
+cd source-to-llm
+npm install
+```
 
 3.  Make your changes and test them.
 
