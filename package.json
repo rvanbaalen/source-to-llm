@@ -4,6 +4,9 @@
   "type": "module",
   "description": "Convert source code to a format suitable for LLM processing.",
   "main": "index.js",
+  "bin": {
+    "source-to-llm": "./index.js"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
