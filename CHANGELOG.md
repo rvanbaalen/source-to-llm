@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.4](https://github.com/rvanbaalen/source-to-llm/compare/source-to-llm-v1.0.3...source-to-llm-v1.0.4) (2025-04-01)
+
+
+### Bug Fixes
+
+* import json as json ([0055ce5](https://github.com/rvanbaalen/source-to-llm/commit/0055ce52c9a2c6ca4643d0a5aa2a5ced0e87c2d9))
+
 ## [1.0.3](https://github.com/rvanbaalen/source-to-llm/compare/source-to-llm-v1.0.2...source-to-llm-v1.0.3) (2025-04-01)
 
 
