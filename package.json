@@ -46,5 +46,8 @@
     "eslint": "^9.22.0",
     "tailwindcss": "^4.0.9",
     "vite": "^6.2.0"
+  },
+  "dependencies": {
+    "ignore": "^7.0.3"
   }
 }
