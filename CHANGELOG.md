@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.5](https://github.com/rvanbaalen/source-to-llm/compare/source-to-llm-v1.0.4...source-to-llm-v1.0.5) (2025-04-01)
+
+
+### Bug Fixes
+
+* use import attribute for json file ([10be5e5](https://github.com/rvanbaalen/source-to-llm/commit/10be5e5b243e4a2b79c5709d0273d46945d0768e))
+
 ## [1.0.4](https://github.com/rvanbaalen/source-to-llm/compare/source-to-llm-v1.0.3...source-to-llm-v1.0.4) (2025-04-01)
 
 
