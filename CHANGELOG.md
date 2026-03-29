@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.7](https://github.com/rvanbaalen/source-to-llm/compare/source-to-llm-v1.0.6...source-to-llm-v1.0.7) (2026-03-29)
+
+
+### Bug Fixes
+
+* update base path for custom domain ([0d7865b](https://github.com/rvanbaalen/source-to-llm/commit/0d7865b7bf020f3817132fef72064afc8402a1eb))
+
 ## [1.0.6](https://github.com/rvanbaalen/source-to-llm/compare/source-to-llm-v1.0.5...source-to-llm-v1.0.6) (2025-04-01)
 
 
