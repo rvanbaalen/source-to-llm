@@ -3,7 +3,7 @@ import tailwindcss from "@tailwindcss/vite"
 import { defineConfig } from "vite"
 
 export default defineConfig({
-  base: "/source-to-llm/", // Change this if your page is not hosted at a root URL
+  base: "/",
   plugins: [
     tailwindcss(),
   ],
