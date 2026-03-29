@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.8](https://github.com/rvanbaalen/source-to-llm/compare/source-to-llm-v1.0.7...source-to-llm-v1.0.8) (2026-03-29)
+
+
+### Bug Fixes
+
+* complete truncated Contributing section in README ([eaa88bf](https://github.com/rvanbaalen/source-to-llm/commit/eaa88bfb1d241c84a655139c8c92104f9cc24778))
+
 ## [1.0.7](https://github.com/rvanbaalen/source-to-llm/compare/source-to-llm-v1.0.6...source-to-llm-v1.0.7) (2026-03-29)
 
 
