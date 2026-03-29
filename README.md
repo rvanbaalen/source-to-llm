@@ -132,4 +132,8 @@ npm install
 
 ##   Contributing
 
-Contributions are welcome! If you have any suggestions, improvements, or bug fixes, please [open an issue](https://github.com/rvanbaalen/source-to-llm/issues/new) or \[submit
+Contributions are welcome! If you have any suggestions, improvements, or bug fixes, please [open an issue](https://github.com/rvanbaalen/source-to-llm/issues/new) or [submit a pull request](https://github.com/rvanbaalen/source-to-llm/pulls).
+
+## License
+
+[MIT](LICENSE)
